@@ -44,3 +44,20 @@ console.log(capital)
 capital.pop()
 console.log(capital)
 capital.pop()
+
+//3.shift() -removes elements of the first index
+let movies=["Amimal","Heropanti","Kabali","Kabil"]
+console.log("Shift Example")
+console.log(movies)
+movies.shift()
+console.log(movies)
+movies.shift()
+console.log(movies)
+
+//4. unshift() - add an element at the beginning of the array
+let kings = ["Mahendra", "Birendra", "Gyanendra"]
+console.log("Unshift Example")
+kings.unshift("Prithvi")
+console.log(kings)
+kings.unshift("Gehendra")
+console.log(kings)
