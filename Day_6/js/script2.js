@@ -45,7 +45,7 @@ console.log("replace example")
 
 let result=casting_director.replace("Lal","Prasad")
 console.log("Actual String:"+ casting_director)
-console.log("Resykt:"+ result)
+console.log("Result:"+ result)
 
 let result_two=dop.replace("Purshopttam","Praneshraj")
 console.log("Actual String",+ dop)

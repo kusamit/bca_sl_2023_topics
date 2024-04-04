@@ -1,52 +1,46 @@
-//defining array
-let palces=["kathmandu","lalitpur","pokhara","Butwal"]
-const gender=["Male","Female","Others"]
-console.log("View of Position of Array 1")
-//accessing array elements with indexing
-console.log(palces[0])
-console.log(palces[1])
-console.log(palces[2])
+// defining array
+let places = ["Kathmandu", "Lalitpur", "Pokhara", "Butwal"]
+const gender = ["Male", "Female", "Others"]
 
-//since array is an object so we can define it using array()
-let lakes= new Array("Phewa","Begnas","Rara","Tillicho")
-console.log("view of Position Array 2")
-//accessing array elements with indexing
-console.log(lakes[0])
-console.log(lakes[1])
-console.log(lakes[1])
+// accessing array elements with indexing
+console.log(places[0])
+console.log(places[1])
+console.log(places[3])
 
-//array properties and methods
-//properties
-//length - return the length of an array
-//example
-console.log("Length of Array Example")
-console.log(palces.length)
-console.log(gender.lenght)
+// since array is an object so we can define it using array()
+let lakes = new Array("Phewa", "Begnas", "Rara", "Tilicho")
+
+// array properties and methods
+// properties
+
+// length - return the length of an array
+// example
+console.log(places.length)
+console.log(gender.length)
 console.log(lakes.length)
 
-//methods
-//1. push - append an element in an array
-//example
+// methods
+// 1. push - append an element in an array
+// example
+let days = ["Sunday", "Monday"]
 console.log("Push Example")
-let days=["Sunday","Monday"]
 console.log(days)
-days.push("Tuesday")
-console.log("days")
+days.push("Friday")
+console.log(days)
 days.push("Wednesday")
 console.log(days)
 
-//2. pop -removes last index element from an array
-console.log("Pop Example")
-let capital=["Kathmandu","New Delhi","Beijing","Dhaka"]
+// 2. pop - removes last index element from an array
+let capital = ["Kathmandu", "New Delhi", "Beijing", "Dhaka"]
+console.log("Pop example")
 console.log(capital)
 capital.pop()
 console.log(capital)
 capital.pop()
 console.log(capital)
-capital.pop()
 
-//3.shift() -removes elements of the first index
-let movies=["Amimal","Heropanti","Kabali","Kabil"]
+// 3. shift() - removes element of first index
+let movies = ["Animal", "The Marvels", "Dimag Kharab", "Batman"]
 console.log("Shift Example")
 console.log(movies)
 movies.shift()
@@ -54,7 +48,7 @@ console.log(movies)
 movies.shift()
 console.log(movies)
 
-//4. unshift() - add an element at the beginning of the array
+// 4. unshift() - add an element at the beginning of the array
 let kings = ["Mahendra", "Birendra", "Gyanendra"]
 console.log("Unshift Example")
 kings.unshift("Prithvi")
